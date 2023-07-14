@@ -9,6 +9,9 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "overrides": {
+    "trim-newlines": "^3.0.1"
+ },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.78.1",
