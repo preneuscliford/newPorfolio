@@ -1,0 +1,11 @@
+Model Information:
+* title:	MGD-06 Programming Device
+* source:	https://sketchfab.com/3d-models/mgd-06-programming-device-35dbd8a2896a44e080ec1359c02829df
+* author:	andrea.notarstefano (https://sketchfab.com/andrea.notarstefano)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MGD-06 Programming Device" (https://sketchfab.com/3d-models/mgd-06-programming-device-35dbd8a2896a44e080ec1359c02829df) by andrea.notarstefano (https://sketchfab.com/andrea.notarstefano) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
