@@ -24,7 +24,7 @@ import cocacola from "../assets/cocacola.png";
 export const navLinks = [
   {
     id: "about",
-    title: "À propos",
+    title: "À_propos",
   },
   {
     id: "work",
@@ -201,29 +201,29 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://netlify.com/",
-    link: "https://64b178208e0e0a3f027846c1--astounding-semifreddo-c7b08d.netlify.app/",
+    link: "https://preneuscliford.github.io/",
   },
   {
     name: "coca cola",
     description:
-      "Exemple de landing page pour Coca-Cola avec des magnifiques animations.",
+      "Exemple de landing page pour Coca-Cola avec une magnifique slide.",
     tags: [
       {
-        name: "react",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
     image: cocacola,
     source_code_link: "https://github.com/",
-    link: "https://remarkable-beijinho-0800eb.netlify.app/",
+    link: "https://cocacolapage.netlify.app/",
   },
   {
     name: "Application React",
@@ -231,12 +231,8 @@ const projects = [
       "Exemple d'application listant les pays et leurs nombres d'habitants",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
@@ -245,7 +241,7 @@ const projects = [
     ],
     image: contries,
     source_code_link: "https://www.netlify.com/",
-    link: "https://inspiring-torte-db028f.netlify.app/",
+    link: "https://countries-react-app-ex.netlify.app/",
   },
 ];
 
