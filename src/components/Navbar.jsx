@@ -21,7 +21,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src="/public/logo23.svg"
+            src="/logo23.svg"
             alt="logo"
             className=" w-5 h-5 object-contain"
           />
