@@ -29,7 +29,7 @@ const ComputersCanvas = () => {
       shadows={false} // Désactivation des ombres pour améliorer les performances sur les appareils mobiles
       dpr={Math.min(2, window.devicePixelRatio)} // Ajustement dynamique de la résolution
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ alpha: true }} // Activation de la transparence sans préserver le buffer de dessin
+      gl={{ preserveDrawingBuffer: true, alpha: true }} // Activation de la transparence sans préserver le buffer de dessin
     >
       <Suspense fallback={<CanvasLoader />}>
         <ambientLight intensity={0.5} />{" "}
