@@ -20,8 +20,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1.5} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.65 : 0.65} // testez avec une valeur fixe par exemple
-        position={isMobile ? [0, -3, -1.5] : [0, -3, -1.5]}
+        scale={0.65} // valeur fixe pour tester
+        position={[0, -3, -1.5]} // valeur fixe pour tester
         rotation={[-0.01, -0.2, -0.05]}
       />
     </mesh>
@@ -48,7 +48,7 @@ const ComputersCanvas = () => {
       shadows
       dpr={[1, 2]}
       gl={{ antialias: true, alpha: true, preserveDrawingBuffer: true }}
-      camera={{ position: [isMobile ? 15 : 20, 3, 5], fov: isMobile ? 28 : 25 }}
+      camera={{ position: [isMobile ? 10 : 20, 3, 5], fov: isMobile ? 28 : 25 }}
       style={{ width: "100%", height: "100%" }}
     >
       <Suspense fallback={<CanvasLoader />}>
