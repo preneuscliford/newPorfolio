@@ -20,6 +20,8 @@ import {
 import portfolio from "../assets/portfolio.png";
 import contries from "../assets/contries.png";
 import cocacola from "../assets/cocacola.png";
+import blockchain from "../assets/blockchain.png";
+import fullstark from "../assets/back-end.png";
 
 export const navLinks = [
   {
@@ -38,16 +40,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Développeur Web Front-End",
-    icon: web,
+    title: "Développeur fullstack",
+    icon: fullstark,
   },
   {
-    title: "Développeur React Native",
-    icon: mobile,
-  },
-  {
-    title: "Développeur Backend ",
-    icon: backend,
+    title: "Développeur Blockchain",
+    icon: blockchain,
   },
 ];
 

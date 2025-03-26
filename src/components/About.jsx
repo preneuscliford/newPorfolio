@@ -10,10 +10,10 @@ import { Tilt } from "react-tilt";
 import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
         options={{
@@ -21,15 +21,15 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
+          alt="web-development"
+          className="w-16 h-16 object-contain"
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -47,16 +47,20 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Je suis rempli de passion pour l'univers de JavaScript et je suis constamment en quête de nouvelles compétences et connaissances pour améliorer mes compétences. Voici quelques domaines dans lesquels j'aimerais développer mes compétences en JavaScript.
-        <br />
-        Ces objectifs représentent une partie de ma vision pour mon développement, en tant que développeur.
-        <br />
-         Je suis animé par l'apprentissage continu et je suis prêt à relever de nouveaux défis pour améliorer mes compétences et atteindre ces objectifs que je me suis fixés. 
+        Je suis passionné par l'univers de JavaScript et du Web 3.0, et je suis
+        constamment en quête de nouvelles compétences pour approfondir mes
+        connaissances. Voici quelques domaines dans lesquels j'ambitionne de
+        développer mes compétences en JavaScript et dans les technologies
+        décentralisées. Ces objectifs font partie intégrante de ma vision en
+        tant que développeur, où l'innovation et l'apprentissage continu
+        occupent une place centrale. Je suis déterminé à relever de nouveaux
+        défis pour perfectionner mes compétences et atteindre les objectifs que
+        je me suis fixés.
       </motion.p>
-  
-      <div className='mt-20 flex justify-center flex-wrap gap-10'>
+
+      <div className="mt-20 flex justify-center flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
