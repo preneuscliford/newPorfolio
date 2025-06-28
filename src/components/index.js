@@ -1,6 +1,5 @@
 import {
   EarthCanvas,
-  BallCanvas,
   ComputersCanvas,
   StarsCanvas,
 } from "./canvas";
@@ -22,7 +21,6 @@ export {
   Works,
   Contact,
   EarthCanvas,
-  BallCanvas,
   ComputersCanvas,
   StarsCanvas,
 };
